@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   resources :statuses, only: [:show]
   resources :mails, only: [:create]
 
-  root to: 'statuses#index'
+  root to: 'pages#index'
 end
